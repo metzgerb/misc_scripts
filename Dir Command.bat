@@ -1,0 +1,1 @@
+Dir /A /B /S "history">C:\ZenworksInstalls\FindHistory.txt

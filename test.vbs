@@ -1,0 +1,3 @@
+TheText = "001	01	0200	1900	PS031612	DR	01/12/2016	4,375.00	1120	4,375.00	0.00	0.00	0.00	0.00	0000000000000001	PAYROLL	120	WEST"
+test = left(TheText,(instr(TheText, ".")+2))
+msgbox test

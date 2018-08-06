@@ -1,0 +1,1 @@
+Reg Add "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\TabbedBrowsing" /v NewTabPageShow /d "1" /t REG_DWORD /f

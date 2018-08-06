@@ -1,0 +1,1 @@
+echo %USERNAME%	%USERPROFILE% > C:\ZenworksInstalls\Logs\HomeFolder.txt

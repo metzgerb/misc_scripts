@@ -1,0 +1,1 @@
+certutil -addstore root C:\ZenworksInstalls\http_proxy_signing_ca.cer
