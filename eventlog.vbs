@@ -2,10 +2,10 @@ Dim objFSO, objFile, FPath, usr, acctnm, DateToCheck, DateFromCheck
 On Error Resume Next
 
 usr= "tdf"
-DateFromCheck = CDate("05/01/2018")
-DateToCheck = CDate("05/30/2018")
+DateFromCheck = CDate("03/01/2020")
+DateToCheck = CDate("03/05/2020")
 
-FPath="C:\ZenworksInstalls\Logs\"
+FPath="C:\OAG-IT\"
 set objFSO = CreateObject("Scripting.FileSystemObject")
 Set objFile =objFSO.CreateTextFile(FPath & "elog.txt", True)
 Set dtmStartDate = CreateObject("WbemScripting.SWbemDateTime")
